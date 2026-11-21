@@ -1,6 +1,6 @@
 
 const pool = require('../config/db');
-const stockModel = require('../models/stockmodels');
+const stockModel = require('../models/stockModels');
 
 function httpError(message, statusCode = 400) {
     const error = new Error(message);
